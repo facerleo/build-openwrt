@@ -12,3 +12,5 @@
 # other
 # rm -rf package/lean/{samba4,luci-app-samba4,luci-app-ttyd}
 
+echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default                                    #kenzok8软件库
+echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default                                               #kenzok8软件库依赖
